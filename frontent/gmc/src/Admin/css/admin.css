@@ -1,0 +1,105 @@
+
+
+/* Admin pannel css */
+
+/* color:#1DABB8;
+background-color:#d2d7d34f ;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+
+
+ .admin-pannel{
+    background-color:#1DABB8 ;
+    color:#1DABB8 ;
+ }
+ .admin-pannel div{
+   background-color: #ffff;
+ }
+
+ .admin-pannel h1{
+    font-weight: 700;
+ }
+ .admin-pannel .user-detail th {
+  color: #1DABB8;
+  font-size: 18px;
+  
+ }
+ .admin-pannel .user-detail td{
+   color: dark;
+   font-weight: 600;
+ }
+ .admin-pannel .edit-user{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.116);
+ }
+ 
+ .admin-pannel .edit-user form{
+
+    height: 600px;
+    width: 700px;
+    border-radius: 20px;
+ }
+
+
+
+
+
+ /* Admin activities page design  */
+
+
+ .admin-pannel{
+
+ }
+ .admin-pannel .transaction{
+   position: relative;
+   height: 100%;
+   overflow-y: scroll;
+  
+
+ }
+
+
+
+ .admin-pannel .transaction .filter-box {
+   position: absolute;
+   z-index: 10000;
+    right: 0%;
+   margin-top: -40px;
+    transition: 1s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    border: solid black 1px;
+  }
+ .transaction .Edit-transaction{
+
+ width: 100%;
+ height: 100vh;
+ left: 0;
+ top: 0;
+ 
+ position: absolute;
+ z-index: 1001;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: rgba(0, 0, 0, 0.116) ;
+
+  
+
+ }
+ .transaction .Edit-transaction .mod{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.479), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+   border-radius: 20px;
+ }
+
+
+
+ /* dashboard design  */
+
+
+
+ 

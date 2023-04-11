@@ -1,0 +1,353 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.body{
+  background-color: #d2d7d34f;
+  width: 100%;
+  height: 100vh;
+ 
+}
+.body .header{
+  /* background-color:;  #1DABB8*/
+  width: 100%;
+
+}
+
+.body .header .setting-icon{
+color: #1DABB8;
+cursor: pointer;
+}
+
+
+.body .student-information{
+  background-color: red;
+}
+.student-information h3{
+   color: #1DABB8;
+   font-weight: bold;
+
+}
+
+
+.body .student-information  img {
+  border-radius:100%;
+  border: solid  #1DABB8 3px;
+  border-width: 5px;
+
+}
+
+.body .options {
+  background-color: #d2d7d34f;
+ 
+}
+
+.cards{
+  text-decoration: none;
+}
+.body .options .cards div{
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+}
+
+
+
+.body .options .cards div p{
+  font-size: 20px;
+  color:  #1DABB8;
+}
+.body .options .cards div svg{
+  color:  #1DABB8;
+}
+
+
+
+
+
+
+
+
+/* my profile page design */
+.my-profile{
+  background-color: #d2d7d34f;
+
+}
+.my-profile .pp{
+   border-radius: 100%;
+  border: solid 3px #1DABB8;
+}
+ .basic-info{
+   font-weight: bold;
+   color: #1DABB8;
+}
+
+ .money-show{
+  width: 50%;
+
+ 
+}
+
+
+
+
+/* mypayment page design  */
+
+.my-payments{
+  background-color:#d2d7d34f ;
+  height: 100vh;
+
+}
+.my-payments h3{
+  color:#1DABB8;
+  font-weight: 600;
+}
+
+.history{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  background-color: #ffff;
+  width: 80%;
+
+  
+}
+.history .status-indicator {
+  font-size: 14px;
+  color: #fff;
+   font-weight: 600;
+  
+}
+.history .date{
+  font-size: 12px;
+  font-style: italic;
+}
+.history  .information {
+  font-size: 16px;
+
+}
+
+
+
+
+
+
+/* login page design  */
+
+
+.login{
+  background-color: #d2d7d34f;
+  
+  width: 100%;
+  height: 100vh;
+}
+.login form{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  width: 300px;
+  height: 450px;
+  background-color: white;
+  
+}
+
+.login h1{
+  color: #1DABB8;
+  font-weight: bold;
+}
+
+
+
+/* forgot password design  */
+
+.change-password{
+  background-color: #d2d7d34f;
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.change-password form{
+  width: 400px;
+  height: 350px;
+  background-color: white;
+}
+
+.change-password h1{
+  color: #1DABB8;
+  font-weight: bold;
+}
+.change-password .email-info{
+  color: #1DABB8;
+  font-weight: bold;
+  word-break: break-all;
+  font-size: 17px;
+}
+
+
+
+
+/* css for enter email for change or activate the account password  */
+
+.enter-email{
+  height: 90vh;
+  background-color: #d2d7d34f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.enter-email form{
+  width: 350px;
+  height: 300px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.enter-email h1{
+  color: #1DABB8;
+   font-weight: bold;
+}
+
+
+
+
+/* fee detail page design css */
+.fee-details{
+  background-color: #d2d7d34f;
+   width: 100%;
+   height: 100vh;
+}
+
+
+/* payment form css */
+
+.pay-fee{
+  background-color: #d2d7d34f;
+
+}
+
+.payment-form {
+  color: #1DABB8;
+}
+
+.payment-form input{
+  border: solid 1px rgb(97, 95, 95);
+}
+
+
+
+
+
+
+ /* app starting section csss  */
+
+  .app-starting{
+
+  background-color:#d2d7d34f ;
+  width: 100vw;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  }
+
+
+/* responsiveness */
+@media  screen  and (max-width:750px){
+  .money-show{
+    width: 80%;
+  
+   
+  }
+  .history{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    background-color: #ffff;
+    width: 80%;
+  
+    
+  }
+  .change-password .email-info{
+    color: #1DABB8;
+    font-weight: bold;
+    word-break: break-all;
+    font-size: 15px;
+  }
+
+
+}
+
+@media  screen  and (max-width:500px){
+  .body .student-information{
+    background-color: red;
+    height: 200px;
+  }
+  .student-information p {
+    font-size: 11px;
+  }
+  .student-information img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .my-profile .information {
+    width: 90%;
+  }
+  .money-show{
+    width: 97%;
+  
+   
+  }
+  .history{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    background-color: #ffff;
+    width: 100%;
+  
+    
+  }
+  .history .status-indicator {
+    font-size: 10px;
+    color: #fff;
+    
+  }
+  .history  .information {
+    font-size: 13px;
+  
+  }
+  .history .date{
+    font-size: 9px;
+    font-style: italic;
+  }
+  .change-password form{
+    /* width: 400px; */
+    width: 100%;
+    height: 350px;
+    background-color: white;
+  }
+  .change-password .email-info{
+    color: #1DABB8;
+    font-weight: bold;
+    word-break: break-all;
+    font-size: 13px;
+  }
+
+  
+  
+}
+
+
